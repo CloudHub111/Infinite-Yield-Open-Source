@@ -206,7 +206,7 @@ Title.BorderSizePixel = 0
 Title.Size = UDim2.new(0, 250, 0, 20)
 Title.Font = Enum.Font.SourceSans
 Title.TextSize = 18
-Title.Text = " Infinite Yield Open Sourcev" .. currentVersion
+Title.Text = " Open Source Admin v" .. currentVersion
 
 do
 	local emoji = ({
@@ -421,7 +421,7 @@ StayOpen.Position = UDim2.new(0, 5, 0, 30)
 StayOpen.Size = UDim2.new(1, -10, 0, 20)
 StayOpen.Font = Enum.Font.SourceSans
 StayOpen.TextSize = 14
-StayOpen.Text = "Keep Menu Open"
+StayOpen.Text = "Made Menu Never Close"
 StayOpen.TextColor3 = Color3.new(1, 1, 1)
 StayOpen.TextXAlignment = Enum.TextXAlignment.Left
 StayOpen.ZIndex = 10
@@ -4247,7 +4247,7 @@ function autoComplete(str,curText)
 end
 
 CMDs = {}
-CMDs[#CMDs + 1] = {NAME = 'discord / support / help', DESC = 'Invite to the Infinite Yield support server.'}
+CMDs[#CMDs + 1] = {NAME = 'IY Discord / support / help', DESC = 'Invite to the Infinite Yield support server.'}
 CMDs[#CMDs + 1] = {NAME = 'console', DESC = 'Loads old Roblox console'}
 CMDs[#CMDs + 1] = {NAME = 'explorer / dex', DESC = 'Opens DEX by Moon'}
 CMDs[#CMDs + 1] = {NAME = 'olddex / odex', DESC = 'Opens Old DEX by Moon'}
